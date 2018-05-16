@@ -122,15 +122,26 @@ input.text {
   margin: 15px auto 10px;
   width: 304px;
   height: 78px;
+  border: 1px solid #dad8de;
+  border-radius: 3px;
+  position: relative;
 }
 
 .buttons {
   padding: 20px 0;
   border-top: 1px solid #dad8de;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .primary {
   padding: 0 10px;
+}
+
+.rc-content {
+  width: 206px; 
+  display: inline-block;
+}
+
+.rc-footer {
+
 }
