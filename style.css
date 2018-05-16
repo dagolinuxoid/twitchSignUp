@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   height: 100%;
 }
@@ -7,4 +11,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.passport {
+  background-color: #fff;
+  padding: 4rem 2rem 2rem;
+  font: 12px Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.passport__item {
+  position: relative;
+  margin: 0 0 20px;
 }
