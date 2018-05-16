@@ -11,16 +11,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 
 .passport {
   background-color: #fff;
-  padding: 4rem 2rem 2rem;
+  padding: 40px 20px 20px;
   font: 12px Helvetica, Arial, sans-serif;
   line-height: 1.5;
 }
 
-.passport__item {
+.item {
   position: relative;
   margin: 0 0 20px;
 }
@@ -52,7 +53,7 @@ body {
 .tabs {
   display: flex;
   align-items: flex-end;
-  margin-bottom: 1rem;
+  margin: 12px 0 10px;
   box-shadow: inset 0 -1px 0 #dad8de;
   padding: 0;
 }
@@ -72,7 +73,7 @@ body {
 .tabs > li > a {
   cursor: pointer;
   display: inline-block;
-  padding: .5rem 0;
+  padding: 5px 0;
   font-size: 14px;
 }
 
@@ -115,4 +116,21 @@ input.text {
 
 .sub > a {
   font-size: 11px;
+}
+
+#recaptcha {
+  margin: 15px auto 10px;
+  width: 304px;
+  height: 78px;
+}
+
+.buttons {
+  padding: 20px 0;
+  border-top: 1px solid #dad8de;
+  display: flex;
+  justify-content: center;
+}
+
+.primary {
+  padding: 0 10px;
 }
