@@ -24,3 +24,27 @@ body {
   position: relative;
   margin: 0 0 20px;
 }
+
+.button {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+  background: #6441a4;
+  font-size: 14px;
+  line-height: 30px;
+  border: none;
+  color: #fff;
+  font-family: Arimo, sans-serif;
+}
+
+.button--fb {
+  background: #4861a3;
+  padding: 2px 12px 2px 4px;
+}
+
+.button--fb svg {
+  position: relative;
+  top: 4px;
+  margin: 0 4px;
+}
